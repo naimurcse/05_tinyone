@@ -1,0 +1,315 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+
+}
+
+img {
+    display: block;
+    max-width: 100%;
+}
+
+body {
+    font-family: 'PT Sans', sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {}
+
+
+/*Header Start*/
+
+header {
+    background-color: #fcdb00;
+    padding: 22px 0;
+}
+
+.menu {}
+
+.menu ul {}
+
+.menu ul li {}
+
+.menu ul li a {
+    color: #010101 !important;
+    font-weight: 700;
+    font-size: 18px;
+    padding: 0 30px;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+}
+
+.menu ul li a:hover {
+    color: white!important;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link {
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+}
+
+/*Header End*/
+
+
+
+/*Slider Start*/
+.slider-section {
+    background-color: #fcdb00;
+}
+
+.slider {}
+
+.slider img {}
+
+.slider h1 {
+    font-size: 32px;
+    color: #010101;
+    font-weight: 700;
+
+}
+
+.slider h3 {
+    color: #313841;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 1.5;
+    margin: 20px 0;
+}
+
+.slider p {
+    color: #313841;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+
+.slider p:nth-child(1) {}
+
+.brand-icons {}
+
+..brand-icons a {}
+
+..brand-icons ul {}
+
+.brand-icons ul li {
+    display: inline-block;
+}
+
+.brand-icons ul li a {
+    font-size: 42px;
+    color: #010101;
+    padding-right: 20px;
+}
+
+.carousel-item {
+    min-height: 84vh;
+}
+
+.carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+}
+
+/*Slider End*/
+
+
+/*Feature Section Start*/
+.feature-section {
+    padding: 80px 0;
+}
+
+.heading {
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.heading h1 {
+    font-size: 32px;
+    color: #010101;
+    font-weight: 700;
+}
+
+.heading p {
+    color: #313841;
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 1.5;
+    margin-top: 20px;
+}
+
+.icon {
+    text-align: right;
+}
+
+.icon i {
+    font-size: 50px;
+    color: #010101;
+}
+
+.feature-content {}
+
+.feature-content h4 {
+    font-size: 22px;
+    font-weight: 600;
+    color: #010101;
+}
+
+.feature-content p {
+    color: #898989;
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 1.4;
+}
+
+.feature {
+    margin-bottom: 30px;
+}
+
+/*Feature Section End*/
+
+
+/*Contact Section Start*/
+.contact-section {
+    background-color: #010101;
+    padding: 80px 0;
+}
+
+.contact-section .heading {}
+
+.contact-section .heading h1 {
+    color: #fcdb00;
+}
+
+.contact-section .heading p {
+    color: #898989;
+}
+
+.enter-email {}
+
+.enter-email input {
+    display: block;
+    width: 81%;
+    float: left;
+    padding: 24px 20px;
+    font-size: 16px;
+}
+
+.enter-email input:focus {
+    outline: none;
+}
+
+.enter-email .btn {
+    color: #010101;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px !important;
+    padding: 13px 34px;
+    background-color: #fcdb00;
+    float: right;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+}
+
+.enter-email .btn:hover {}
+
+.social-icon {
+    margin-top: 76px;
+}
+
+.form-custom {
+    padding: 24px 20px;
+
+}
+
+.btn-custom {
+    color: #010101;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 15px !important;
+    padding: 13px 34px;
+    background-color: #fcdb00;
+    float: right;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+}
+
+.btn-custom:hover {
+    background-color: #ffcd5b;
+}
+
+.social-icon ul {
+    text-align: center;
+}
+
+.social-icon ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.social-icon ul li a {
+    font-size: 42px;
+    margin-right: 26px;
+    color: #fcdb00;
+    transition: all 0.4s ease;
+    -webkit-transition: all 0.4s ease;
+    -moz-transition: all 0.4s ease;
+}
+
+.social-icon ul li a:hover {
+    color: #ffcd5b;
+}
+
+/*Contact Section End*/
+
+
+/*Footer Start*/
+footer {
+    padding: 80px 0 40px 0;
+    background-color: #0c0c0c;
+}
+
+footer address {}
+
+footer address h5 {
+    color: #fff;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin-bottom: 0;
+}
+
+footer ul {}
+
+footer ul li {
+    list-style: none;
+    color: #d2d2d2;
+    font-weight: 300;
+    font-size: 16px;
+}
+
+footer ul li a {
+    color: #d2d2d2;
+    font-size: 16px;
+    transition: all 0.2s ease;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+}
+
+footer ul li a:hover {
+    color: #fcdb00;
+    text-decoration: none;
+}
+
+/*Footer End*/
